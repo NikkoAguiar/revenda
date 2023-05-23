@@ -37,7 +37,7 @@
                             <a href="#promocao">Promoções</a>
                         </li>
                         <li>
-                            <a href="#">Contato</a>
+                            <a href="#formulario">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -63,38 +63,38 @@
                 <h2>Em destaque</h2>
                 <ul class="container_flex lista_veiculos">
                     <li>
-                        <h3>Carro BMW</h3>
-                        <img src="./images/carro-bmw.png" alt="BMW"/>
-                        <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
+                        <h3>Honda Civic 2.0 2023</h3>
+                        <img src="./images/honda_civic_2_0_2023.png" alt="BMW"/>
+                        <p>Câmbio: CVT<br/>Combustível: Gasolina/elétrico<br/>Cor: branco<br/>Condição: semi-novo</p>
                         <strong>R$75.000,00</strong>
                         <button type="button">Tenho interesse</button>
                     </li>
                     <li class="item_central">
                         <h3>Volvo C40 2022</h3>
                         <img src="./images/volvo_c40_2022_azul.png" alt="Volvo C40 azul"/>
-                        <p>Câmbio automático, 4 portas, vidros, novo e cor azul.</p>
+                        <p>Câmbio: automático<br/>Combustível: gasolina<br/>Condição: novo<br/>Cor: azul</p>
                         <strong>R$350.000,00</strong>
                         <button type="button">Tenho interesse</button>
                     </li>
                     <li>
                         <h3>Volkswagen Jetta 2021</h3>
                         <img src="./images/volkswagen_jetta_2021.png" alt="Volkswagen Jetta 2021 braco"/>
-                        <p>combustível: gasolina<br/>Câmbio: automático<br/>Cor: branco<br/>Estado: usado.</p>
+                        <p>combustível: gasolina<br/>Câmbio: automático<br/>Cor: branco<br/>Condição: usado.</p>
                         <strong>R$63.500,00</strong>
                         <button type="button">Tenho interesse</button>
                     </li>
                     <li>
-                        <h3>Carro BMW</h3>
+                        <h3>Toyota Corola 2021</h3>
                         <img src="./images/toyota_corola_2021.png" alt="Toyota Corola 2021 branco"/>
-                        <p>Câmbio: automático<br/>Cor: braco<br/>Combustível: gasolina/álcool<br/>condição: semi-novo.</p>
-                        <strong>R$75.000,00</strong>
+                        <p>Câmbio: automático<br/>Cor: braco<br/>Combustível: gasolina/álcool<br/>Condição: semi-novo.</p>
+                        <strong>R$150.000,00</strong>
                         <button type="button">Tenho interesse</button>
                     </li>
                     <li class="item_central">
-                        <h3>Carro BMW</h3>
-                        <img src="./images/carro-bmw.png" alt="BMW"/>
-                        <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
-                        <strong>R$75.000,00</strong>
+                        <h3>Honda Civic 1.5 2018</h3>
+                        <img src="./images/honda_civic_1_5.png" alt="BMW"/>
+                        <p>Câmbio: automático<br/>Combustível: gasolina<br/>Cor: preto<br/>Condição: novo</p>
+                        <strong>R$89.500,00</strong>
                         <button type="button">Tenho interesse</button>
                     </li>
                 </ul>
@@ -106,18 +106,18 @@
                 <h2>Promoções</h2>
                 <ul class="container_flex lista_veiculos">
                     <li>
-                        <h3>Carro BMW</h3>
-                        <img src="./images/carro-bmw.png" alt="BMW"/>
-                        <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
+                        <h3>Honda Civic 1.5 2020</h3>
+                        <img src="./images/honda_civic_1_5_2020.png" alt="BMW"/>
+                        <p>Câmbio: automático<br/>Combustível: gasolina/álcool<br/>Cor: branco<br/>Condição: semi-novo</p>
                         <div class="preco">
-                            <del>R$100.000,00</del>
-                            <strong>R$ 75.000,00</strong>
+                            <del>R$350.000,00</del>
+                            <strong>R$150.000,00</strong>
                             <button type="button">Tenho interesse</button>
                         </div>
                     </li>
                     <li class="item_central">
-                        <h3>Carro BMW</h3>
-                        <img src="./images/carro-bmw.png" alt="BMW"/>
+                        <h3>Honda Civic 2.0 2016</h3>
+                        <img src="./images/honda_civic_2_0_2020.png" alt="BMW"/>
                         <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
                         <div class="preco">
                             <del>R$100.000,00</del>
@@ -158,14 +158,63 @@
                 </ul>
             </div>
         </section>
-
-        <!-- <section id="formulario">
-
-        </section> -->
+        <section id="formulario">
+            <div calss="container">
+                <h2>Entre em contato:</h2>
+                <form>
+                    <div class="form_campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome"/>
+                    </div>
+                    <div class="form_campo">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone"/>
+                    </div>
+                    <div class="form_campo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email"/>
+                    </div>
+                    <div class="form_campo">
+                        <label for="veiculo_interesse">Veículo:</label>
+                        <input type="text" id="veiculo_interesse"/>
+                    </div>
+                    <div class="form_campo">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="container container_flex">
+                <p>
+                    2023 &copy; SENAC Motors - Todos os direitos reservados.
+                </p>
+                <ul class="container">
+                    <li>
+                        <a href="#">
+                            <img src="./icones/facebook.png" alt="Facebook Logo"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./icones/instagram.png" alt="Instagram Logo"/>
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./icones/youtube.png" alt="YouTube Logo"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="./js/jquery.mask.min.js"></script>
         <script src="./main.js"></script>
     </body>
 </html>
