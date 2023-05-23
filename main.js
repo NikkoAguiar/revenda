@@ -11,7 +11,7 @@ $(document).ready(function(){
 
     // $('#telefone').mask('(00) 00000-0000');
 
-    $('#telefone').mask('SSS-0000', {
-        placeholder: 'ABC-1234'
+    $('#telefone').mask('(00) 00000-0000', {
+        placeholder: '(12) 34567-8901'
     });
 })

@@ -166,6 +166,10 @@ form{
     max-width: 360px;
 }
 
+#formulario{
+    margin-left: 100px;
+}
+
 form button{
     max-width: 120px;
 }
@@ -173,7 +177,6 @@ form button{
 footer li{
     list-style: none;
     margin-left: 16px;
-    display: inline;
 }
 
 footer li img{
