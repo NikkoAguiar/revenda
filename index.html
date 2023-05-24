@@ -9,10 +9,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="main.css"/>
+        <link rel="stylesheet" href="./main.css"/>
 
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     </head>
     <body>
         <header>
@@ -122,8 +121,8 @@
                         <div class="preco">
                             <del>R$450.000,00</del>
                             <strong>R$145.500,00</strong>
-                            <button type="button">Tenho interesse</button>
                         </div>
+                        <button type="button">Tenho interesse</button>
                     </li>
                     <li>
                         <h3>Honda Fit 1.4 2009</h3>
@@ -132,8 +131,8 @@
                         <div class="preco">
                             <del>R$350.000,00</del>
                             <strong>R$35.000,00</strong>
-                            <button type="button">Tenho interesse</button>
                         </div>
+                        <button type="button">Tenho interesse</button>
                     </li>
                     <li>
                         <h3>Volkswagen Amarok 3.0 2021</h3>
@@ -142,8 +141,8 @@
                         <div class="preco">
                             <del>R$750.000,00</del>
                             <strong>R$500.000,00</strong>
-                            <button type="button">Tenho interesse</button>
                         </div>
+                        <button type="button">Tenho interesse</button>
                     </li>
                     <li class="item_central">
                         <h3>Mini Cooper 2022</h3>
@@ -152,8 +151,8 @@
                         <div class="preco">
                             <del>R$600.000,00</del>
                             <strong>R$450.000,00</strong>
-                            <button type="button">Tenho interesse</button>
                         </div>
+                        <button type="button">Tenho interesse</button>
                     </li>
                 </ul>
             </div>
@@ -164,19 +163,19 @@
                 <form>
                     <div class="form_campo">
                         <label for="nome">Nome:</label>
-                        <input type="text" required id="nome"/>
+                        <input type="text" id="nome" name="nome"/>
                     </div>
                     <div class="form_campo">
                         <label for="telefone">Telefone:</label>
-                        <input type="tel" required id="telefone"/>
+                        <input type="tel" id="telefone" name="telefone"/>
                     </div>
                     <div class="form_campo">
                         <label for="email">E-mail:</label>
-                        <input type="email" required id="email"/>
+                        <input type="email" id="email" name="email"/>
                     </div>
                     <div class="form_campo">
                         <label for="veiculo_interesse">Veículo:</label>
-                        <input type="text" required id="veiculo_interesse"/>
+                        <input type="text" id="veiculo_interesse" name="veiculo_interesse"/>
                     </div>
                     <div class="form_campo">
                         <label for="mensagem">Mensagem:</label>
@@ -212,9 +211,10 @@
         </footer>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script src="./js/jquery.mask.min.js"></script>
-        <script src="./main.js"></script>
+        <script src="./js/jquery.validate.min.js"></script>
+        <script src="./js/messages_pt_BR.min.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 </html>
